@@ -1,0 +1,89 @@
+Bloque 1: Pruebas de Validación y Control
+Los errores de entrada se corrigen en la misma línea para llegar al rango evaluado.
+1.	Validación de Negativos:
+Valores C: -50 (luego 100), 1000, 10, 1000
+Valor a predecir en Python: 1500 
+
+2.	Validación de Rango Invertido:
+Valores C: 1000, 500 (luego 5000), 5, 1000
+Valor a predecir en Python: 3000 
+
+3.	Muestras Insuficientes:
+Valores C: 100, 1000, 1 (luego 10), 500
+Valor a predecir en Python: 750 
+
+4.	Iteraciones Nulas:
+Valores C: 100, 500, 5, 0 (luego 100)
+Valor a predecir en Python: 250 
+
+5.	Limpieza de Buffer (Letras):
+Valores C: hola (luego 100), 1000, 10, 1000
+Valor a predecir en Python: 10000 
+
+
+Bloque 2: Casos de Rendimiento y Algoritmos
+Datos para ver el comportamiento matemático puro.
+
+6.	Micro-Arreglos:
+Valores C: 2, 20, 5, 50000
+Valor a predecir en Python: 15 
+
+7.	Salto Constante:
+Valores C: 100, 1000, 10, 10000
+Valor a predecir en Python: 550 
+
+8.	Alta Densidad:
+Valores C: 1000, 2000, 100, 5000
+Valor a predecir en Python: 1250 
+
+9.	Gran Escala (Pocos puntos):
+Valores C: 1000, 1000000, 2, 10000
+Valor a predecir en Python: 500000 
+
+10.	Potencias de 2:
+Valores C: 1024, 1048576, 11, 10000
+Valor a predecir en Python: 524288
+
+
+Bloque 3: Estrés y Casos Especiales
+Casos extremos y atípicos para el hardware.
+
+11.	Estrés de Memoria:
+Valores C: 10000, 50000000, 5, 100
+Valor a predecir en Python: 60000000 
+
+12.	Carga de CPU:
+Valores C: 50000, 100000, 10, 500000
+Valor a predecir en Python: 75000 
+
+13.	Mínima Resolución:
+Valores C: 10, 100, 10, 1
+Valor a predecir en Python: 50 
+14.	Crecimiento Lineal Limpio:
+Valores C: 10000, 100000, 10, 20000
+Valor a predecir en Python: 150000 
+
+15.	Inicio Pesado:
+Valores C: 1000000, 1000005, 6, 10000
+Valor a predecir en Python: 1000003 
+
+16.	Paso Unitario:
+Valores C: 1, 10, 10, 100000
+Valor a predecir en Python: 12 
+
+17.	Números Primos:
+Valores C: 13, 997, 17, 10000
+Valor a predecir en Python: 503 
+
+18.	Prueba de Reducción Dinámica:
+Valores C: 100, 1000000, 20, 50000
+Valor a predecir en Python: 250000 
+
+19.	Maratón de Escritura:
+Valores C: 1000, 100000, 100, 100000
+Valor a predecir en Python: 80000 
+
+20.	Configuración de Reporte UBA (Benchmark Ideal):
+Valores C: 1000, 1000000, 50, 10000
+Valor a predecir en Python: 2000000
+
