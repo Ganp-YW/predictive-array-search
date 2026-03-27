@@ -20,11 +20,6 @@ Localizado en `view.py`, este script procesa los resultados experimentales:
 
 ## 🛠️ Requisitos e Instalación
 
-**1. Compilación en C (Windows)**
-```
-gcc main.c
-```
-
 ## Ejecución en Python
 Requiere Python 3.x y las siguientes librerías:
 
