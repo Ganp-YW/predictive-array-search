@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/gerar/Documents/Codigo/Proyecto en C y Py",
-      "program": "c:/Users/gerar/Documents/Codigo/Proyecto en C y Py/build/Debug/outDebug",
+      "cwd": "c:/Users/gerar/Documents/Codigo/predictive-array-search",
+      "program": "c:/Users/gerar/Documents/Codigo/predictive-array-search/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

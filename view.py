@@ -9,7 +9,7 @@ from sklearn.linear_model import LinearRegression
 parser = argparse.ArgumentParser(description='Visualizar, interpolar y predecir resultados de benchmark.')
 parser.add_argument('--n_points', '-p', type=int, default=500, help='Número de puntos para la interpolación suave.')
 parser.add_argument('--predict_n', '-pred', type=int, default=0, help='Valor máximo de n para realizar predicciones.')
-parser.add_argument('--file', '-f', default='benchmark_resultados.csv', help='Ruta al archivo CSV con los datos de entrada.')
+parser.add_argument('--file', '-f', default='output/benchmark_resultados.csv', help='Ruta al archivo CSV con los datos de entrada.')
 args = parser.parse_args()
 
 #  Interacción para pedir n a predecir 
